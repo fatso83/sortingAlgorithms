@@ -25,7 +25,7 @@ __email__ = "archer@hume.email"
 __status__ = "Development"
 
 
-sys.setcheckinterval(1) # Set the interpreter check interval to 1 (Higher thread switching frequency increases delay accuracy).
+sys.setswitchinterval(1) # Set the interpreter check interval to 1 (Higher thread switching frequency increases delay accuracy).
 
 
 class AlgorithmExistanceError(Exception):
