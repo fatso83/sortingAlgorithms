@@ -22,6 +22,7 @@ A collection of sorting algorithms written in Python. An educational tool used f
   cd sortingAlgorithms
   ```
 - Install Python Dependencies:
+  If using Poetry or UV, you can skip this step, as `uv run main.py` will get all you need.
   ```
   pip install -r requirements.txt
   ```
